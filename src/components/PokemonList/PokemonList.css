@@ -12,7 +12,6 @@
 .pokemon-wrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 8rem; /* Add spacing between cards */
     justify-content: space-evenly; /* Center all rows */
     margin-top: 2rem;
 }
