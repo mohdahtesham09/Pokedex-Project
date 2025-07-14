@@ -1,0 +1,27 @@
+.pokemon{
+    /* flex: 0 0 calc(33.33% - 2rem); 3 per row with gap accounted */
+    flex-basis: 90%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-name{
+    font-size: larger;
+    letter-spacing: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+
+.pokemon-image{
+    height: 150px;
+    max-height: 80%;
+}
+
+.pokemon:hover{
+    background-color: beige;
+}
