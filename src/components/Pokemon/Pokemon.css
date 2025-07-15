@@ -12,12 +12,22 @@
 }
 
 
+
 .pokemon-name{
     font-size: larger;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 200;
+    color: black;
 }
+
+.pokemon-link {
+  text-decoration: none;   /* removes underline */
+  color: black;            /* removes blue color */
+  display: inline-block;   /* ensures styling is respected */
+}
+
+
 
 .pokemon-image{
     height: 150px;
